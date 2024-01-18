@@ -14,8 +14,8 @@ namespace PresentationLayer.Controllers
                 RequestUri = new Uri("https://currency-exchange.p.rapidapi.com/exchange?from=USD&to=TRY&q=1.0"),
                 Headers =
     {
-        { "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
-        { "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
+        //{ "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
+        //{ "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
     },
             };
             using (var response = await client.SendAsync(request))
@@ -34,8 +34,8 @@ namespace PresentationLayer.Controllers
                 RequestUri = new Uri("https://currency-exchange.p.rapidapi.com/exchange?from=EUR&to=TRY&q=1.0"),
                 Headers =
     {
-        { "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
-        { "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
+        //{ "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
+        //{ "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
     },
             };
             using (var response2 = await client2.SendAsync(request2))
@@ -54,8 +54,8 @@ namespace PresentationLayer.Controllers
                 RequestUri = new Uri("https://currency-exchange.p.rapidapi.com/exchange?from=GBP&to=TRY&q=1.0"),
                 Headers =
     {
-        { "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
-        { "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
+        //{ "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
+        //{ "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
     },
             };
             using (var response3 = await client3.SendAsync(request3))
@@ -74,8 +74,8 @@ namespace PresentationLayer.Controllers
                 RequestUri = new Uri("https://currency-exchange.p.rapidapi.com/exchange?from=USD&to=EUR&q=1.0"),
                 Headers =
     {
-        { "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
-        { "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
+        //{ "X-RapidAPI-Key", "d813896d4fmsh6c2b9d46adec59ap1a263ejsn1014dd6d83ee" },
+        //{ "X-RapidAPI-Host", "currency-exchange.p.rapidapi.com" },
     },
             };
             using (var response4 = await client4.SendAsync(request4))
