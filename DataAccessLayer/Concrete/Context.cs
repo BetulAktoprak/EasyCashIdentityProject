@@ -13,7 +13,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-GQ3I6OJ;initial catalog=EasyCashDb;User ID=sa;Password=1;");
+            optionsBuilder.UseSqlServer("server=;initial catalog=EasyCashDb;");
         }
 
         public DbSet<CustomerAcccount> CustomerAcccounts { get; set; }
